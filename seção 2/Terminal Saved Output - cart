@@ -1,0 +1,59 @@
+Last login: Tue Nov 30 10:48:08 on ttys000
+sabrinadevasconcelosfernandes@MBP-de-Sabrina ~ % cd cart
+cd: no such file or directory: cart
+sabrinadevasconcelosfernandes@MBP-de-Sabrina ~ % cd ecomm
+sabrinadevasconcelosfernandes@MBP-de-Sabrina ecomm % cd cart
+sabrinadevasconcelosfernandes@MBP-de-Sabrina cart % npm i
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+added 659 packages, and audited 660 packages in 17s
+
+53 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (6 moderate, 3 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+sabrinadevasconcelosfernandes@MBP-de-Sabrina cart % npm run start
+
+> cart@1.0.0 start
+> webpack serve
+
+ℹ ｢wds｣: Project is running at http://localhost:8082/
+ℹ ｢wds｣: webpack output is served from /
+ℹ ｢wds｣: Content not from webpack is served from /Users/sabrinadevasconcelosfernandes/ecomm/cart
+ℹ ｢wdm｣: asset main.js 3.49 MiB [emitted] (name: main)
+asset vendors-node_modules_faker_index_js.js 3.13 MiB [emitted] (id hint: vendors)
+asset remoteEntry.js 13.5 KiB [emitted] (name: cart)
+asset src_index_js.js 1.4 KiB [emitted]
+asset index.html 186 bytes [emitted]
+runtime modules 8.19 KiB 16 modules
+modules by path ./node_modules/faker/lib/locales/ 1.93 MiB 1468 modules
+modules by path ./node_modules/faker/lib/*.js 133 KiB 27 modules
+modules by path ./node_modules/webpack-dev-server/ 21.2 KiB
+  modules by path ./node_modules/webpack-dev-server/client/ 20.9 KiB 10 modules
+  modules by path ./node_modules/webpack-dev-server/node_modules/ 296 bytes 2 modules
+modules by path ./node_modules/html-entities/lib/*.js 61 KiB 5 modules
+modules by path ./node_modules/webpack/hot/ 1.58 KiB 3 modules
+modules by path ./node_modules/url/ 37.4 KiB 3 modules
+modules by path ./node_modules/querystring/*.js 4.51 KiB 3 modules
+modules by path ./node_modules/faker/vendor/*.js 21.1 KiB 3 modules
+modules by path ./node_modules/faker/lib/image_providers/*.js 10.9 KiB 3 modules
+7 modules
+webpack 5.64.4 compiled successfully in 1615 ms
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: assets by status 6.64 MiB [cached] 4 assets
+asset index.html 186 bytes [emitted]
+cached modules 2.42 MiB (javascript) 8.19 KiB (runtime) [cached] 1550 modules
+webpack 5.64.4 compiled successfully in 335 ms
+ℹ ｢wdm｣: Compiled successfully.
+
